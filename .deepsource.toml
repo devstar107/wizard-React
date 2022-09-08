@@ -1,0 +1,18 @@
+version = 1
+
+test_patterns = [
+  "__tests__/**",
+  "**test.tsx"
+]
+
+exclude_patterns = [
+  "/dist/**",
+  "/coverage/**",
+  "/cache/**",
+  "**App.tsx",
+  "**main.tsx"
+]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
